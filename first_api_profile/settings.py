@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'phonenumber_field',
     'profile_app',
+    'profile_api_apiview',
 ]
 
 MIDDLEWARE = [
