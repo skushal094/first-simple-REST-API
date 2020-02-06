@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'phonenumber_field',
     'profile_app',
     'profile_api_apiview',
+    'profile_api_viewset',
 ]
 
 MIDDLEWARE = [

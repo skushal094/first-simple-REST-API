@@ -20,4 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('profile_app.urls')),
     path('api-view/', include('profile_api_apiview.urls')),
+    path('view-set/', include('profile_api_viewset.urls'))
 ]
